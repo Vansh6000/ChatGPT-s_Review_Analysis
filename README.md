@@ -15,7 +15,7 @@ A simple yet effective NLP-based web application that classifies user reviews as
 - ✅ Real-time review sentiment prediction
 - 🔠 Text preprocessing (tokenization, lemmatization, stopword removal)
 - 📊 TF-IDF vectorization
-- 🤖 ML model built using Logistic Regression & SVC
+- 🤖 ML model built using SVC
 - 🌐 Interactive and responsive web UI
 
 ---
