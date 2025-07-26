@@ -60,22 +60,25 @@ git clone https://github.com/your-username/review-sentiment-app.git
 cd review-sentiment-app
 ```
 
-2. **Install dependencies
+2. **Install dependencies**
 ```bash
 pip install -r requirements.txt
 ```
+```
+Download Dataset : https://www.kaggle.com/datasets/charunisa/chatgpt-sentiment-analysis?select=file.csv
+```
 
-3. **Train the model
+3. **Train the model**
 ```bash
 python train_model.py
 ```
 
-4. **Run the Flask app
+4. **Run the Flask app**
 ```bash
 python app.py
 ```
 
-5. **Open in Browser
+5. **Open in Browser**
 ```bash
 http://localhost:5000
 ```
