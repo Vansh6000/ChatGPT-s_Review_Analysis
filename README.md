@@ -2,6 +2,11 @@
 
 A simple yet effective NLP-based web application that classifies user reviews as **Good ✅** or **Bad ❌** using a trained machine learning model. Built using **Python, Scikit-learn, Flask, and NLTK**, with a clean front-end built in **HTML, CSS, and JavaScript**.
 
+## 📸 Screenshot
+
+![App Screenshot](static/assets/demo_screenshot.png) <!-- You can update the path or add one later -->
+
+
 ---
 
 ## 🛠️ Features
