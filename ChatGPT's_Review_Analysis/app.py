@@ -5,7 +5,7 @@ import string
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 
-# Ensure required NLTK resources are available
+# this is to ensure required NLTK resources are available
 try:
     nltk.data.find('tokenizers/punkt')
 except LookupError:
@@ -64,14 +64,14 @@ def index():
 
 @app.route('/predict', methods=['POST'])
 def predict():
-    data = request.get_json()  # ✅ parse JSON
+    data = request.get_json()  # parse JSON
     review = data.get('review', '')
 
     processed_review = preprocess(review)
     vector = tfidf_vectorizer.transform([processed_review])
     prediction = model.predict(vector)[0]
     
-    return jsonify({'result': prediction.capitalize()})  # ✅ return JSON
+    return jsonify({'result': prediction.capitalize()})  # return JSON
 
 if __name__ == '__main__':
     app.run(debug=True)
