@@ -1,4 +1,4 @@
-/* Global Styles */
+
 body {
   margin: 0;
   padding: 0;
@@ -10,7 +10,6 @@ body {
   height: 100vh;
 }
 
-/* Container */
 .container {
   background-color: #fff;
   border-radius: 2rem;
@@ -22,7 +21,7 @@ body {
   max-width: 600px;
 }
 
-/* Heading */
+
 .container h1 {
   font-size: 2.5rem;
   font-weight: bold;
@@ -31,7 +30,7 @@ body {
   padding-bottom: 1rem;
 }
 
-/* Form styling */
+
 form {
   display: flex;
   flex-direction: column;
@@ -40,7 +39,7 @@ form {
   width: 100%;
 }
 
-/* Input box */
+
 #review-input {
   width: 80%;
   min-height: 8rem;
@@ -58,7 +57,6 @@ form {
   outline: none;
 }
 
-/* Predict button */
 #predict-btn {
   background-color: #5c6ac4;
   color: #fff;
@@ -74,14 +72,12 @@ form {
   background-color: #4a58b2;
 }
 
-/* Prediction result */
 #prediction-result {
   margin-top: 1.5rem;
   font-size: 1.4rem;
   font-weight: 600;
 }
 
-/* Responsive */
 @media (max-width: 600px) {
   .container {
     padding: 2rem 1.5rem;
